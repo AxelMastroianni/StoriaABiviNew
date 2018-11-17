@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storygame>
+<!--
+Programma Arnaldo 2018
+File XML di testing per il modulo 2.
+
+Il seguente documento è stato prodotto da Michele Dusi per lo Student Branch IEEE dell'Università degli Studi di Brescia.
+-->
+	<story title="Storia di testing - Modulo 2" size="5">
+		<paragraph id="0" type="basic">
+			<description>
+				Questo è il paragrafo iniziale. Tale paragrafo presenta tre scelte.
+			</description>
+			<option linkto="1">
+				Vai al paragrafo 1.
+			</option>
+			<option linkto="2">
+				Vai al paragrafo 2.
+			</option>
+			<option linkto="3">
+				Vai al paragrafo 3.
+			</option>
+		</paragraph>
+		<paragraph id="1" type="basic">
+			<description>
+				Paragrafo con id=1.
+E' possibile terminare la storia o spostarsi al paragrafo 2.
+			</description>
+			<option linkto="4">
+Termina la storia.
+			</option>
+			<option linkto="2">
+Vai al paragrafo 2.
+			</option>
+		</paragraph>
+		<paragraph id="2" type="basic">
+			<description>
+				Paragrafo con id=2.
+E' possibile terminare la storia o spostarsi al paragrafo 3.
+			</description>
+			<option linkto="4">
+Termina la storia.
+			</option>
+			<option linkto="3">
+Vai al paragrafo 3.
+			</option>
+		</paragraph>
+		<paragraph id="3" type="basic">
+			<description>
+				Paragrafo con id=3.
+L'unica scelta possibile, ora, è terminare la storia.
+			</description>
+			<option linkto="4">
+Termina la storia.
+			</option>
+		</paragraph>
+		<paragraph id="4" type="basic" ending="true">
+			<description>
+				Paragrafo con id=4.
+Questo è l'ultimo paragrafo, ed è segnato come paragrafo terminale (detto anche paragrafo finale).
+			</description>
+		</paragraph>
+	</story>
+</storygame>

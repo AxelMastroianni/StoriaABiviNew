@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storygame>
+<!--
+Programma Arnaldo 2018
+File XML di testing per il modulo 2.
+
+Il seguente documento è stato prodotto da Michele Dusi per lo Student Branch IEEE dell'Università degli Studi di Brescia.
+-->
+	<story title="Storia molto breve" size="1">
+		<paragraph id="0" type="basic" ending="true">
+			<description>
+				Questa storia contiene un solo paragrafo, che è sia paragrafo iniziale (poiché ha id=0) che paragrafo finale (poiché non ha opzioni).
+			</description>
+		</paragraph>
+	</story>
+</storygame>

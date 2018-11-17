@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storygame>
+<!--
+Programma Arnaldo 2018
+File XML di testing per il modulo 2.
+
+Il seguente documento è stato prodotto da Michele Dusi per lo Student Branch IEEE dell'Università degli Studi di Brescia.
+-->
+	<story title="Avventura nella cripta" size="4">
+		<paragraph id="0" type="basic">
+			<description>
+				Ti trovi in uno strano posto, una specie di cripta illuminata solo dalla debole luce delle candele. Davanti a te vedi due porte, impolverate, dall'aspetto antico e massiccio.
+Che cosa fai?
+			</description>
+			<option linkto="1">Apro la porta a destra</option>
+			<option linkto="2">Apro la porta a sinistra</option>
+		</paragraph>
+		<paragraph id="1" type="basic">
+			<description>
+				Provi a tirare e spingere con tutta la tua forza, ma la porta sembra non volersi muovere...
+Come reagisci?
+			</description>
+			<option linkto="0">Torno indietro</option>
+		</paragraph>
+		<paragraph id="2" type="basic">
+			<description>
+				La porta a sinistra si apre lentamente con uno strano cigolìo. Il nuovo ambiente è buio, ma sembrerebbe anche molto grande. Nell'oscurità intravedi due occhi rossi che brillano. Sembrano fissarti, ma non si muovono.
+Devi pensare in fretta... Che fare?
+			</description>
+			<option linkto="0">Richiudo la porta e torno indietro</option>
+			<option linkto="3">Mi avventuro nell'oscurità</option>
+		</paragraph>
+		<paragraph id="3" type="basic" ending="true">
+			<description>
+				Man mano che avanzi nell'oscurità, altri fugaci bagliori sembrano circondarti. Per un attimo temi di aver fatto un errore, ma guardando meglio ti rendi conto che non sono altro che pietre dall'aspetto lucente e cristallino.
+L'intera stanza accoglie un enorme tesoro, più ricco di qualunque bottino tu abbia mai visto!
+
+Congratulazioni, hai terminato l'avventura di prova.
+			</description>
+		</paragraph>
+	</story>
+</storygame>
